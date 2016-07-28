@@ -1,0 +1,83 @@
+[
+    {
+        "title": "Technical leader",
+        "company" : "Generali",
+        "logo" : "logo-generali",
+        "date" : "October 2013 – Present",
+        "start_date" : "01/10/2013",
+        "event_date" : "Oct 2013",
+        "description" : "<p>I contributed to some Generali projects in different business activities such as Treasury, training, reporting and analysis.</p><p>The list bellow presents some activity I have made : </p></p><ul><li>Refactoring a legacy application.</li><li>Design and development of a web application.</li><li>Batch optimization and refactoring.</li></ul>"
+    },
+     {
+        "title": "Scrum master & JEE Architect",
+        "company" : "Banque de France",
+        "logo" : "logo-bdf",
+        "date" : "November 2012 – September 2013 (11 months)",
+        "start_date" : "01/11/2012",
+        "event_date" : "Nov 2012",
+        "description" : "<p>I worked in two projects in Banque de france. The first one is a data integration project and the second one is secured communication chanel project.</p> <p>for these project I contributed as a Scrum master and JEE Architect. The team is constituted of two junior developper and a prduct expert.</p>"
+    },
+     {
+        "title": "Scrum master & JEE Architect",
+        "company" : "Banques Bopulaire",
+        "logo" : "logo-bp",
+        "date" : "May 2012 – November 2012 (7 months)",
+        "start_date" : "01/05/2012",
+        "event_date" : "May 2012",
+        "description" : "<p>Front office development for a digital banking trust solution.</p>"
+    },
+     {
+        "title": "Project manager assistant",
+        "company" : "Manpower",
+        "logo" : "logo-manpower",
+        "date" : "September 2011 – May 2012 (9 months)",
+        "start_date" : "01/09/2011",
+        "event_date" : "Oct 2011",
+        "description" : "<ul><li>Team coaching and making sure that Scrum processes are adhered.</li><li>Applications deployment.</li><li>Refactoring a legacy web application</li></ul>"
+    },
+    {
+        "title": "JEE consultant",
+        "company" : "Strator",
+        "logo" : "logo-strator",
+        "date" : "January 2011 – July 2011 (7 months)",
+        "start_date" : "01/01/2011",
+        "event_date" : "Jan 2012",
+        "description" : "<p>Design and developpment of a back-end of sales application.</p>"
+    },
+    {
+        "title": "Technical leader",
+        "company" : "Campus France",
+        "logo" : "logo-campus-france",
+        "date" : "April 2010 – February 2011 (11 months)",
+        "start_date" : "01/04/2010",
+        "event_date" : "Avr 2012",
+        "description" : "<ul><li>Design and development of JEE WEB Application</li><li>Refectoring a web application</li></ul>"
+    },
+    {
+        "title": "JEE developper",
+        "company" : "Credit Agricole",
+        "logo" : "logo-credit-agricole",
+        "date" : "September 2009 – March 2010 (7 months)",
+        "start_date" : "01/09/2009",
+        "event_date" : "Sept 2012",
+        "description" : "<p>Rate gaps web application design and development.</p>"
+    },
+     {
+        "title": "Technical leader",
+        "company" : "FAFTT",
+        "logo" : "logo-faftt",
+        "date" : "October 2008 – September 2009 (1 year)",
+        "start_date" : "01/10/2008",
+        "event_date" : "Oct 2012",
+        "description" : "<p>Design and development of JEE WEB application.</p>"
+    },
+     {
+        "title": "JEE Developper",
+        "company" : "SONEDE",
+        "logo" : "logo-sonede",
+        "date" : "May 2005 – September 2008 (3 years 5 months)",
+        "start_date" : "01/05/2006",
+        "event_date" : "May 2005",
+        "description" : "<ul><li>JEE developer (Struts, Hibernate, Spring, ACEGI, JasperReport, Eclipse, Tomcat).</li><li>Application integration with ETL (Kettle - Pentaho tool : http://www.pentaho.com)</li><li>Applications and Data Base designer (UML, BPM)</li><li>Deployment of Open Source application (GLPI : http://glpi-project.org)</li></ul>"
+    }
+]
