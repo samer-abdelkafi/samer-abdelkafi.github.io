@@ -11,13 +11,13 @@
         "company" : "Generali",
         "media" : "https://www.youtube.com/embed/Yb_wpRPMgSI",
         "date" : "Mars 2015",
-        "description" : "<p>Autofocus is mobile application that allows Generali clients in case of accident to provide insurance with car damages pictures to establish coast estimation.</p><p>I was involved to the project as developer to implement server side services and a web application that allows Generali agent to activate service for clients and provide partners with required data.</p>"
+        "description" : "<p>Autofocus is a mobile application that allows Generali clients in case of accident to provide insurance with car damages pictures to establish cost estimation.</p><p>I was involved in the project as a developer to implement server side services and a web application that allows Generali agent to activate service for clients and provide partners with required data.</p>"
     },
     {
         "title": "CFN",
         "company" : "Generali",
         "media" : "https://www.youtube.com/embed/QkcYUt17NyA",
         "date" : "Mars 2015",
-        "description" : "<p>CFN is Document management system for Banque Populaire Clients that provides a secured solution to store and manage documents like bills and contracts.</p><p>I contributed to the project as a Scrum Master for a team of two junior developers and a web designer.</p>"
+        "description" : "<p>CFN is a document management system for Banque Populaire Clients that provides a secured solution to store and manage documents like bills and contracts.</p><p>I contributed to the project as a Scrum Master for a team of two junior developers and a web designer.</p>"
     }
 ]
