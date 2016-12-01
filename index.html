@@ -118,7 +118,9 @@
           <!--<div class="logo-font portfolio-slogan">Deliver on Time</div>-->
           <div class="logo-font portfolio-sub-slogan">welcome to my portfolio...</div>
           <div class="workspace-container">
-            <div class="workspace" id="workspace"></div>
+            <div class="workspace" id="workspace">
+              <!--<img src="src/images/welcome_portfolio.svg">-->
+            </div>
           </div>
           <div class="logo-font portfolio-create-character">
             <a href=""> This is my workspace</a>
@@ -139,7 +141,7 @@
             <div class="portfolio-wear-band-text">
               <div class="mdl-typography--display-2 mdl-typography--font-thin">About</div>
               <p class="mdl-typography--headline mdl-typography--font-thin">
-                I'm a software engineer with over 10 years experience in Java technologies as Developer, Technical Leader, Architect, Consultant and Scrum Master. I contributed in multiple kinds of projects (Web, data integration, batch, Security solution, web services …) in different business fields (Banking, Insurance, Education ...)
+                I'm a software engineer with over 10 years of experience in Java technologies as Developer, Technical Leader, Architect and Scrum Master. I contributed to a variety of projects (Web, data integration, batch, Security solution, web services …) in different business fields (Banking, Insurance, Education ...)
               </p>
             </div>
           </div>
@@ -147,11 +149,11 @@
 
         <!-- skills section -->
         <div id="skills" class="section mdl-color--grey-100">
-          <div  class="portfolio-skills-section mdl-typography--text-center">
+          <div class="portfolio-skills-section mdl-typography--text-center">
             <a name="screens"></a>
             <div class="portfolio-skills-section-text">
               <div class="mdl-typography--display-1-color-contrast ">Skils</div>
-              <p class="mdl-typography--font-light">I have three major skills: Java/JEE application developpemnt, Java Architect deffining and looking for best framework to fit to customer needs, Managing Java projects as a crum master.</p>
+              <p class="mdl-typography--font-light">I have three major skills: Java/JEE application developpemnt, Java Architect defining and looking for best framework to fit to customer needs and Managing Java projects as a Scrum master.</p>
             </div>
             <div class="mdl-grid">
               <div class="mdl-cell mdl-cell--4-col icon skills-developper" style="font-size: 4px;">
@@ -160,7 +162,7 @@
               </div>
               <div class="mdl-cell mdl-cell--4-col icon skills-architect" style="font-size: 4px;">
                 <h5 class="mdl-color-text--grey-600 mdl-typography--headline">Architect</h5>
-                <p>Continouns Integration, Technologies and framworks proposal, Code quality control, Developers team support, POC and technical components development.s</p>
+                <p>Continuous Integration, Technologies and frameworks proposal, Code quality control, Developers team support, POC and technical components development.</p>
               </div>
               <div class="mdl-cell mdl-cell--4-col icon skills-project-management" style="font-size: 4px;">
                 <h5 class="mdl-color-text--grey-600 mdl-typography--headline">Project manager</h5>
@@ -186,41 +188,41 @@
               </p>
             </div>
             
-              <!-- new -->
-        <section class="cd-horizontal-timeline" htimeline >
-        	<div class="timeline">
-        		<div class="events-wrapper">
-        			<div class="events">
-        				<ol>
-        					<li ng-repeat="experience in experiences"><a href="#0" ng-class="{selected:$first}" data-date="{{experience.start_date}}">{{experience.event_date}}</a></li>
-        				</ol>
-        
-        				<span class="filling-line" aria-hidden="true"></span>
-        			</div> <!-- .events -->
-        		</div> <!-- .events-wrapper -->
-        			
-        		<ul class="cd-timeline-navigation">
-        			<li><a href="#0" class="prev inactive"><i class="material-icons">chevron_left</i></a></li>
-        			<li><a href="#0" class="next"><i class="material-icons">chevron_right</i></a></li>
-        		</ul> <!-- .cd-timeline-navigation -->
-        	</div> <!-- .timeline -->
-        
-        	<div class="events-content">
-        		<ol>
-        			<li ng-repeat="experience in experiences" ng-class="{selected:$first}" class="experience-event" data-date="{{experience.start_date}}" on-finish-render="" >
-        			  <div class="experience-detail">
-        			    <div class="experience-logo icon" style="font-size: 5px;" ng-class="experience.logo"></div>
-          				<span class="experience-position mdl-typography--font-light mdl-typography--display-1-color-contrast">{{experience.title}}</span>
-          				<span class="mdl-typography--font-light mdl-typography--headline">{{experience.company}}</span>
-          				<em>{{experience.date}}</em>
-          				<div ng-bind-html="experience.description"></div>
-        				</div>
-        			</li>
-        		</ol>
-        	</div> <!-- .events-content -->
-        </section>
-        
-        <!-- en new -->
+            <!-- new -->
+            <section class="cd-horizontal-timeline" htimeline="">
+            	<div class="timeline">
+            		<div class="events-wrapper">
+            			<div class="events">
+            				<ol>
+            					<li ng-repeat="experience in experiences"><a href="#0" ng-class="{selected:$first}" data-date="{{experience.start_date}}">{{experience.event_date}}</a></li>
+            				</ol>
+            
+            				<span class="filling-line" aria-hidden="true"></span>
+            			</div> <!-- .events -->
+            		</div> <!-- .events-wrapper -->
+            			
+            		<ul class="cd-timeline-navigation">
+            			<li><a href="#0" class="prev inactive"><i class="material-icons">chevron_left</i></a></li>
+            			<li><a href="#0" class="next"><i class="material-icons">chevron_right</i></a></li>
+            		</ul> <!-- .cd-timeline-navigation -->
+            	</div> <!-- .timeline -->
+            
+            	<div class="events-content">
+            		<ol>
+            			<li ng-repeat="experience in experiences" ng-class="{selected:$first}" class="experience-event" data-date="{{experience.start_date}}" on-finish-render="">
+            			  <div class="experience-detail">
+            			    <div class="experience-logo icon" style="font-size: 5px;" ng-class="experience.logo"></div>
+              				<span class="experience-position mdl-typography--font-light mdl-typography--display-1-color-contrast" ng-bind-html="experience.title"></span>
+              				<span class="mdl-typography--font-light mdl-typography--headline">{{experience.company}}</span>
+              				<em>{{experience.date}}</em>
+              				<div ng-bind-html="experience.description"></div>
+            				</div>
+            			</li>
+            		</ol>
+            	</div> <!-- .events-content -->
+            </section>
+            
+            <!-- en new -->
             
 
           </div>
@@ -229,12 +231,12 @@
         <!-- blog section -->
         
         <div id="projects" class="section mdl-color--grey-100" ng-controller="ProjectsController">
-          <div  class="portfolio-blog-section" >
+          <div class="portfolio-blog-section">
             <div class="portfolio-section-title mdl-typography--display-1-color-contrast">Projects</div>
             <div class="portfolio-card-container mdl-grid">
               
               
-              <div  ng-repeat="project in projects"  class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div ng-repeat="project in projects" class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
                 <div class="mdl-card__media">
                     <iframe width="100%" height="100%" ng-src="{{project.media}}" frameborder="0" allowfullscreen></iframe>
                 </div>
@@ -262,7 +264,7 @@
             
             <div ng-repeat="post in posts" class="post-card mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
               <div class="mdl-card__media">
-                <div class="post-image"  ng-style="{'background-image': 'url({{post.featured_image}})'}"></div>
+                <div class="post-image" ng-style="{'background-image': 'url({{post.featured_image}})'}"></div>
                 <div class="post-date">{{post.date | date:'yyyy MMM'}}</div>
               </div>
               <div class="mdl-card__title">
@@ -280,27 +282,27 @@
             </div>
 
           </div>
-          <div style="text-align:center" >
-            <div ng-hide="loading"><button ng-show="index < found" class="mdl-button mdl-js-button" ng-click='loading=true;loadPosts();'><i class="material-icons">history</i> Older posts</button></div>
+          <div style="text-align:center">
+            <div ng-hide="loading"><button ng-show="index < found" class="mdl-button mdl-js-button" ng-click="loading=true;loadPosts();"><i class="material-icons">history</i> Older posts</button></div>
             <div ng-show="loading" class="ng-hide"><div class="mdl-spinner mdl-js-spinner is-active"></div></div>
           </div>
         </div>
         
         <svg style="display:none;">
           <symbol id="twitter-icon">
-            <path d="M22.46,6C21.69,6.35 20.86,6.58 20,6.69C20.88,6.16 21.56,5.32 21.88,4.31C21.05,4.81 20.13,5.16 19.16,5.36C18.37,4.5 17.26,4 16,4C13.65,4 11.73,5.92 11.73,8.29C11.73,8.63 11.77,8.96 11.84,9.27C8.28,9.09 5.11,7.38 3,4.79C2.63,5.42 2.42,6.16 2.42,6.94C2.42,8.43 3.17,9.75 4.33,10.5C3.62,10.5 2.96,10.3 2.38,10C2.38,10 2.38,10 2.38,10.03C2.38,12.11 3.86,13.85 5.82,14.24C5.46,14.34 5.08,14.39 4.69,14.39C4.42,14.39 4.15,14.36 3.89,14.31C4.43,16 6,17.26 7.89,17.29C6.43,18.45 4.58,19.13 2.56,19.13C2.22,19.13 1.88,19.11 1.54,19.07C3.44,20.29 5.7,21 8.12,21C16,21 20.33,14.46 20.33,8.79C20.33,8.6 20.33,8.42 20.32,8.23C21.16,7.63 21.88,6.87 22.46,6Z" />
+            <path d="M22.46,6C21.69,6.35 20.86,6.58 20,6.69C20.88,6.16 21.56,5.32 21.88,4.31C21.05,4.81 20.13,5.16 19.16,5.36C18.37,4.5 17.26,4 16,4C13.65,4 11.73,5.92 11.73,8.29C11.73,8.63 11.77,8.96 11.84,9.27C8.28,9.09 5.11,7.38 3,4.79C2.63,5.42 2.42,6.16 2.42,6.94C2.42,8.43 3.17,9.75 4.33,10.5C3.62,10.5 2.96,10.3 2.38,10C2.38,10 2.38,10 2.38,10.03C2.38,12.11 3.86,13.85 5.82,14.24C5.46,14.34 5.08,14.39 4.69,14.39C4.42,14.39 4.15,14.36 3.89,14.31C4.43,16 6,17.26 7.89,17.29C6.43,18.45 4.58,19.13 2.56,19.13C2.22,19.13 1.88,19.11 1.54,19.07C3.44,20.29 5.7,21 8.12,21C16,21 20.33,14.46 20.33,8.79C20.33,8.6 20.33,8.42 20.32,8.23C21.16,7.63 21.88,6.87 22.46,6Z"/>
           </symbol>
           <symbol id="github-icon">
-            <path d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z" />
+            <path d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z"/>
           </symbol>
           <symbol id="google-plus-icon">
-            <path d="M23,11H21V9H19V11H17V13H19V15H21V13H23M8,11V13.4H12C11.8,14.4 10.8,16.4 8,16.4C5.6,16.4 3.7,14.4 3.7,12C3.7,9.6 5.6,7.6 8,7.6C9.4,7.6 10.3,8.2 10.8,8.7L12.7,6.9C11.5,5.7 9.9,5 8,5C4.1,5 1,8.1 1,12C1,15.9 4.1,19 8,19C12,19 14.7,16.2 14.7,12.2C14.7,11.7 14.7,11.4 14.6,11H8Z" />
+            <path d="M23,11H21V9H19V11H17V13H19V15H21V13H23M8,11V13.4H12C11.8,14.4 10.8,16.4 8,16.4C5.6,16.4 3.7,14.4 3.7,12C3.7,9.6 5.6,7.6 8,7.6C9.4,7.6 10.3,8.2 10.8,8.7L12.7,6.9C11.5,5.7 9.9,5 8,5C4.1,5 1,8.1 1,12C1,15.9 4.1,19 8,19C12,19 14.7,16.2 14.7,12.2C14.7,11.7 14.7,11.4 14.6,11H8Z"/>
           </symbol>
           <symbol id="linkedin-icon">
-            <path d="M21,21H17V14.25C17,13.19 15.81,12.31 14.75,12.31C13.69,12.31 13,13.19 13,14.25V21H9V9H13V11C13.66,9.93 15.36,9.24 16.5,9.24C19,9.24 21,11.28 21,13.75V21M7,21H3V9H7V21M5,3A2,2 0 0,1 7,5A2,2 0 0,1 5,7A2,2 0 0,1 3,5A2,2 0 0,1 5,3Z" />
+            <path d="M21,21H17V14.25C17,13.19 15.81,12.31 14.75,12.31C13.69,12.31 13,13.19 13,14.25V21H9V9H13V11C13.66,9.93 15.36,9.24 16.5,9.24C19,9.24 21,11.28 21,13.75V21M7,21H3V9H7V21M5,3A2,2 0 0,1 7,5A2,2 0 0,1 5,7A2,2 0 0,1 3,5A2,2 0 0,1 5,3Z"/>
           </symbol>
           <symbol id="wordpress-icon">
-            <path d="M12.2,15.5L9.65,21.72C10.4,21.9 11.19,22 12,22C12.84,22 13.66,21.9 14.44,21.7M20.61,7.06C20.8,7.96 20.76,9.05 20.39,10.25C19.42,13.37 17,19 16.1,21.13C19.58,19.58 22,16.12 22,12.1C22,10.26 21.5,8.53 20.61,7.06M4.31,8.64C4.31,8.64 3.82,8 3.31,8H2.78C2.28,9.13 2,10.62 2,12C2,16.09 4.5,19.61 8.12,21.11M3.13,7.14C4.8,4.03 8.14,2 12,2C14.5,2 16.78,3.06 18.53,4.56C18.03,4.46 17.5,4.57 16.93,4.89C15.64,5.63 15.22,7.71 16.89,8.76C17.94,9.41 18.31,11.04 18.27,12.04C18.24,13.03 15.85,17.61 15.85,17.61L13.5,9.63C13.5,9.63 13.44,9.07 13.44,8.91C13.44,8.71 13.5,8.46 13.63,8.31C13.72,8.22 13.85,8 14,8H15.11V7.14H9.11V8H9.3C9.5,8 9.69,8.29 9.87,8.47C10.09,8.7 10.37,9.55 10.7,10.43L11.57,13.3L9.69,17.63L7.63,8.97C7.63,8.97 7.69,8.37 7.82,8.27C7.9,8.2 8,8 8.17,8H8.22V7.14H3.13Z" />
+            <path d="M12.2,15.5L9.65,21.72C10.4,21.9 11.19,22 12,22C12.84,22 13.66,21.9 14.44,21.7M20.61,7.06C20.8,7.96 20.76,9.05 20.39,10.25C19.42,13.37 17,19 16.1,21.13C19.58,19.58 22,16.12 22,12.1C22,10.26 21.5,8.53 20.61,7.06M4.31,8.64C4.31,8.64 3.82,8 3.31,8H2.78C2.28,9.13 2,10.62 2,12C2,16.09 4.5,19.61 8.12,21.11M3.13,7.14C4.8,4.03 8.14,2 12,2C14.5,2 16.78,3.06 18.53,4.56C18.03,4.46 17.5,4.57 16.93,4.89C15.64,5.63 15.22,7.71 16.89,8.76C17.94,9.41 18.31,11.04 18.27,12.04C18.24,13.03 15.85,17.61 15.85,17.61L13.5,9.63C13.5,9.63 13.44,9.07 13.44,8.91C13.44,8.71 13.5,8.46 13.63,8.31C13.72,8.22 13.85,8 14,8H15.11V7.14H9.11V8H9.3C9.5,8 9.69,8.29 9.87,8.47C10.09,8.7 10.37,9.55 10.7,10.43L11.57,13.3L9.69,17.63L7.63,8.97C7.63,8.97 7.69,8.37 7.82,8.27C7.9,8.2 8,8 8.17,8H8.22V7.14H3.13Z"/>
           </symbol>
         </svg>
 
@@ -308,32 +310,32 @@
           <div class="mdl-mega-footer--top-section">
             <div class="mdl-mega-footer--left-section social-icons">
               <a target="_blank" href="https://twitter.com/samer_abdelkafi">
-                <svg width="32" height="32"  viewBox="0 0 24 24" class="twitter">
-                  <use xlink:href="#twitter-icon"></use>
+                <svg width="32" height="32" viewbox="0 0 24 24" class="twitter">
+                  <use xlink:href="#twitter-icon"/>
                 </svg>
               </a>
               <a target="_blank" href="https://github.com/samer-abdelkafi">
-                <svg width="32" height="32" viewBox="0 0 24 24" class="github">
-                   <use xlink:href="#github-icon"></use>
+                <svg width="32" height="32" viewbox="0 0 24 24" class="github">
+                   <use xlink:href="#github-icon"/>
                 </svg>
               </a>
               <a target="_blank" href="https://plus.google.com/+samerabdelkafi/posts">
-                <svg width="32" height="32"  viewBox="0 0 24 24" class="google-plus">
-                  <use xlink:href="#google-plus-icon"></use>
+                <svg width="32" height="32" viewbox="0 0 24 24" class="google-plus">
+                  <use xlink:href="#google-plus-icon"/>
                 </svg>
               </a>
               <a target="_blank" href="https://www.linkedin.com/in/samerabdelkafi">
-                <svg width="32" height="32" viewBox="0 0 24 24" class="linkedin">
-                  <use xlink:href="#linkedin-icon"></use>
+                <svg width="32" height="32" viewbox="0 0 24 24" class="linkedin">
+                  <use xlink:href="#linkedin-icon"/>
                 </svg>
               </a>
               <a target="_blank" href="https://samerabdelkafi.wordpress.com">
-                <svg width="32" height="32" viewBox="0 0 24 24" class="wordpress">
-                  <use xlink:href="#wordpress-icon"></use>
+                <svg width="32" height="32" viewbox="0 0 24 24" class="wordpress">
+                  <use xlink:href="#wordpress-icon"/>
                 </svg>
               </a>
             </div>
-            <div class="mdl-mega-footer--right-section" >
+            <div class="mdl-mega-footer--right-section">
               <a class="mdl-typography--font-light js-scrollTo" href="#welcome">
                 Back to Top
                 <i class="material-icons">expand_less</i>
@@ -356,32 +358,28 @@
       </a>
       <ul>
         <li>
-          <a href="mailto:samer.abdelkafi@gmail.com?Subject=Hello :)"
-              class="btn-floating mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--mail">
+          <a href="mailto:samer.abdelkafi@gmail.com?Subject=Hello :)" class="btn-floating mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--mail">
             <i class="material-icons">mail</i>
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/samerabdelkafi" target="_blank"
-             class="btn-floating mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--linkedin">
-            <svg width="24" height="24"  viewBox="0 0 24 24">
-              <use xlink:href="#linkedin-icon"></use>
+          <a href="https://www.linkedin.com/in/samerabdelkafi" target="_blank" class="btn-floating mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--linkedin">
+            <svg width="24" height="24" viewbox="0 0 24 24">
+              <use xlink:href="#linkedin-icon"/>
             </svg>
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/samer_abdelkafi" target="_blank"
-             class="btn-floating mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--twitter">
-            <svg width="24" height="24"  viewBox="0 0 24 24" >
-                <use xlink:href="#twitter-icon"></use>
+          <a href="https://twitter.com/samer_abdelkafi" target="_blank" class="btn-floating mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--twitter">
+            <svg width="24" height="24" viewbox="0 0 24 24">
+                <use xlink:href="#twitter-icon"/>
             </svg>
           </a>
         </li>
         <li>
-          <a href="https://samerabdelkafi.wordpress.com/about/" target="_blank"
-            class="btn-floating mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--wordpress">
-            <svg width="24" height="24"  viewBox="0 0 24 24">
-                <use xlink:href="#wordpress-icon"></use>
+          <a href="https://samerabdelkafi.wordpress.com/about/" target="_blank" class="btn-floating mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--wordpress">
+            <svg width="24" height="24" viewbox="0 0 24 24">
+                <use xlink:href="#wordpress-icon"/>
             </svg>
           </a>
         </li>
