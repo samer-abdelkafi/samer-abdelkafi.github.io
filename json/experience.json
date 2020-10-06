@@ -41,7 +41,7 @@
         "logo" : "logo-strator",
         "date" : "January 2011 – July 2011 (7 months)",
         "start_date" : "01/01/2011",
-        "event_date" : "Jan 2012",
+        "event_date" : "Jan 2011",
         "description" : "<p>I contributed to development of a back-end for a sales application as java/JEE consultant.</p><p>This project consists of implementing data integration solution for tobacconist sales terminals. The solution gathers all data in a server store sales data, manages stock and calls REST and SOAP web services of providers.</p><ul><li>Architecture choices proposal and validation.</li><li>Design and development of the application.</li><li>Writing Unit and functional tests.</li></ul>"
     },
     {
@@ -50,7 +50,7 @@
         "logo" : "logo-campus-france",
         "date" : "April 2010 – February 2011 (11 months)",
         "start_date" : "01/04/2010",
-        "event_date" : "Avr 2012",
+        "event_date" : "Avr 2010",
         "description" : "<p>In this mission, I worked on a department of “Compus France” that provide services for foreign student like transport, grant management and addressing scholarship-holders.</p><ul><li>Development of new features for a web application managing student scholarship.</li><li>Refactoring and securing a web application.</li><li>Technical support for project teams.</li><li>Trainings for project teams.</li><li>Development industrialization.</li></ul>"
     },
     {
@@ -59,7 +59,7 @@
         "logo" : "logo-credit-agricole",
         "date" : "September 2009 – March 2010 (7 months)",
         "start_date" : "01/09/2009",
-        "event_date" : "Sept 2012",
+        "event_date" : "Sept 2009",
         "description" : "<p>I contributed to a design and a development of a banking  web application.</p><p>In this project, we used ATDD (Acceptance test–driven development) methodology.</p><ul><li>Design and development of the application.</li><li>Writing Unit and functional tests.</li><li>Development industrialization.</li><li>Analysis and optimization of persistence layer.</li></ul>"
     },
      {
@@ -68,7 +68,7 @@
         "logo" : "logo-faftt",
         "date" : "October 2008 – September 2009 (1 year)",
         "start_date" : "01/10/2008",
-        "event_date" : "Oct 2012",
+        "event_date" : "Oct 2008",
         "description" : "<p>This mission consists of developing a web application for managing training and annual contributions of temporary work companies behalf the FAFTT.</p><ul><li>Design and development of the application.</li><li>Writing Unit and functional tests.</li><li>Trainings for project team.</li><li>Data integration using an ETL.</li></ul>"
     },
      {
@@ -76,7 +76,7 @@
         "company" : "SONEDE",
         "logo" : "logo-sonede",
         "date" : "May 2005 – September 2008 (3 years 5 months)",
-        "start_date" : "01/05/2006",
+        "start_date" : "01/05/2005",
         "event_date" : "May 2005",
         "description" : "<ul><li>JEE developer (Struts, Hibernate, Spring, ACEGI, JasperReport, Eclipse, Tomcat).</li><li>Application integration with ETL (Kettle - Pentaho tool : http://www.pentaho.com)</li><li>Applications and Data Base designer (UML, BPM)</li><li>Deployment of Open Source application (GLPI : http://glpi-project.org)</li></ul>"
     }
