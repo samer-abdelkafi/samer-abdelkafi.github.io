@@ -2,7 +2,7 @@
     {
         "title": "Requeteur ACD",
         "company" : "Generali",
-        "media" : "https://www.youtube.com/embed/uRUlwhzeEqQ",
+        "media" : "video/Requeteur_clients.mp4",
         "date" : "Mars 2016",
         "description" : "<p>The aim of this project is to provide Generali agents and partners a tool for business data analysis.</p><p>I contributed to the project as an architect and a developer to provide a responsive WEB Application.</p><p>The application manages and opens Business Objects documents and marketing queries.</p>"
     },
