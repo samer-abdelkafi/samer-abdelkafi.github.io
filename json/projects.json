@@ -5,7 +5,7 @@
         "media" : "video/employee_cockpit.mp4",
         "poster": "video/employee_cockpit.png",
         "date" : "Mars 2016",
-        "description" : "<p>The aim of the project is to automate customers requests management by scanning documents, saving them in an EDM, then creating a case managed by the BPM Tibco AMX.</p>"
+        "description" : "<p>The aim of the project is to automate customers requests management by scanning documents, saving them in an EDM, then creating a case managed by the BPM Tibco AMX.</p><p>I contributed to the project as a technical leader, then as scrum master.</p>"
     },
     {
         "title": "Requeteur ACD",
