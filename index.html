@@ -214,7 +214,7 @@
               
               <div  ng-repeat="project in projects"  class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
                 <div class="mdl-card__media">
-                  <video id="video" class="video-player" width="100%" height="100%" controls>
+                  <video id="video" class="video-player" poster="{{project.poster}}" width="100%" height="100%" controls>
                     <source  ng-src="{{project.media}}">
                   </video>
                 </div>
