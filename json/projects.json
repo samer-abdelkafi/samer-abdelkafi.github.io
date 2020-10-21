@@ -3,7 +3,7 @@
         "title": "Employee Cockpit",
         "company" : "BNP Leasing",
         "media" : "video/employee_cockpit.mp4",
-        "poster": "video/employee_cockpit.png",
+        "poster": "video/employee_cockpit_400.png",
         "date" : "Mars 2016",
         "description" : "<p>The aim of the project is to automate customers requests management by scanning documents, saving them in an EDM, then creating a case managed by the BPM Tibco AMX.</p><p>I contributed to the project as a technical leader, then as scrum master.</p>"
     },
@@ -11,15 +11,15 @@
         "title": "Requeteur ACD",
         "company" : "Generali",
         "media" : "video/Requeteur_clients.mp4",
-        "poster": "video/Requeteur_clients.png",
+        "poster": "video/Requeteur_clients_400.png",
         "date" : "Mars 2016",
         "description" : "<p>The aim of this project is to provide Generali agents and partners a tool for business data analysis.</p><p>I contributed to the project as an architect and a developer to provide a responsive WEB Application.</p><p>The application manages and opens Business Objects documents and marketing queries.</p>"
     },
     {
         "title": "CFN",
-        "company" : "Generali",
+        "company" : "BP",
         "media" : "video/coffre_fort_numerique.mp4",
-        "poster": "video/coffre_fort_numerique.png",
+        "poster": "video/coffre_fort_numerique_400.png",
         "date" : "Mars 2015",
         "description" : "<p>CFN is a document management system for Banque Populaire Clients that provides a secured solution to store and manage documents like bills and contracts.</p><p>I contributed to the project as a Scrum Master for a team of two junior developers and a web designer.</p>"
     }
