@@ -3,7 +3,7 @@
     "title": "Technical leader",
     "company": "Amundi",
     "logo": "logo-amundi",
-    "date": "Mars 2021 – Mars 2025 (4 years)",
+    "date": "March 2021 – March 2025 (4 years)",
     "start_date": "01/03/2019",
     "event_date": "Mar 2021",
     "description": "<p>Maintaining and development of Amundi middle office framework.</p><ul><li>Support for developers</li><li>Migration of middle office framework to cloud architecture (docker container, AWS s3, spring-cloud)</li><li>Technical migration and refactoring of a legacy application</li><li>Maintaining middle office application.</li><li>Design and development of onboarding tools. (Angular and Spring-boot)</li><li>Securing Rest API with keycloack and Spring-security</li><li>Deploy Amex framework and flows to a new Amundi Client in cloud platform (Microsoft Azure)</li></ul>"
@@ -12,7 +12,7 @@
     "title": "Technical leader",
     "company": "BNP Leasing Solution",
     "logo": "logo-bnp",
-    "date": "Janvier 2017 – December 2020 (4 years)",
+    "date": "January 2017 – January 2020 (4 years)",
     "start_date": "01/01/2016",
     "event_date": "Jan 2017",
     "description": "<p>I contributed to the Employee Cockpit Project as a technical leader, then as scrum master.</p><p>The aim of the project is to automate customers requests management by scanning documents, saving them in an EDM, then creating a case managed by a BPM.</p><ul><li>Design and development of a web application.</li><li>Choice of technologies and frameworks.</li><li>Managing and training junior developers.</li><li>Contributing to Continuous Integration of the project</li></ul>"
@@ -21,7 +21,7 @@
     "title": "Technical leader",
     "company": "Generali",
     "logo": "logo-generali",
-    "date": "October 2013 – Octobre 2016 (3 years)",
+    "date": "October 2013 – October 2016 (3 years)",
     "start_date": "01/10/2013",
     "event_date": "Oct 2013",
     "description": "<p>I contributed to some Generali projects in different business activities such as Treasury, training, reporting analysis...</p><ul><li>Refactoring a legacy application.</li><li>Design and development of a web application.</li><li>Batch optimization and refactoring.</li><li>Writing functional and technical specification.</li></ul>"
